@@ -1,0 +1,213 @@
+.navbar.style-4 {
+    margin-top: 0;
+}
+
+.navbar.style-4 .navbar-brand {
+    width: 170px;
+}
+
+.navbar.style-4 .navbar-nav .nav-item .nav-link {
+    text-transform: capitalize;
+}
+
+.navbar.style-4 .navbar-nav .nav-item .nav-link::before {
+    top: -35px;
+}
+
+header.style-4 .content .info h1 {
+    font-size  : 40px;
+    line-height: 50px;
+}
+
+.testimonials.style-4 .content .numbs {
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.testimonials.style-4 .content .numbs .num-card {
+    margin : 0 !important;
+    padding: 0 !important;
+}
+
+.testimonials.style-4 .content .numbs .num-card .img-contain a {
+    background   : black;
+    padding      : 12px;
+    border-radius: 10px;
+}
+
+.testimonials.style-4 .content .numbs .num-card .img-contain a img {
+    height: 42px;
+}
+
+/* Subjects */
+.subject-section .pattern_l,
+.subject-section .pattern_r {
+    height: unset !important;
+}
+
+.subject-wrapper {
+    display  : flex;
+    flex-wrap: wrap;
+    gap      : 20px;
+}
+
+.subject-wrapper .subject-slide {
+    width: calc(33.9% - 20px);
+}
+
+.subject-wrapper .service-card {
+    text-align: left;
+    margin    : 0;
+    position  : relative;
+    height    : 100%;
+}
+
+.subject-wrapper .text {
+    font-size  : 15px !important;
+    line-height: 25px;
+}
+
+/* CTA */
+.chat-banner {
+    position: relative;
+}
+
+.chat-banner .shap_color {
+    position: absolute;
+    top     : -9px;
+}
+
+.signin .sign-btns i {
+    font-size: 22px;
+}
+
+.signin .sign-btns a span {
+    display    : flex;
+    align-items: center;
+    gap        : 5px;
+}
+
+/* Header Form */
+.header-form .signin-page.style-5 .signin {
+    padding         : 0;
+    background      : none;
+    /* margin-bottom: 20px; */
+    margin-left     : 30px;
+    align-items     : flex-start;
+}
+
+.header-form .signin-page.style-5 .signin .form-content {
+    /* background-color: #5842bc; */
+    margin-bottom: 50px;   
+    /* background-color: transparent;
+    background-image: url(../images/bg/form-bg.png);
+    background-size: cover; */
+}
+
+.header-form .signin-page.style-5 .signin .form-content .info {
+    padding   : 30px;
+    text-align: center;
+}
+
+.signInForm .input-group .form-control {
+    font-size: 16px;
+    padding: 10px 12px;
+}
+
+.signInForm .input-group .input-group-text {
+    color: white;
+    background-color: var(--color-blue7);
+    border-color: var(--color-blue7);
+}
+
+.signInForm .butn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.signInForm label.error,
+.contactForm label.error {
+    display: none !important;
+}
+
+.signInForm .input-group.has-error {
+    border-color: red !important;
+}
+
+.signInForm .input-group.has-error .form-control {
+    border-color: red !important;
+}
+
+.signInForm .input-group.has-error .input-group-text {
+    color: white;
+    background: red;
+    border-color: red;
+}
+
+.contactForm .form-control.has-error {
+    border-color: red !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin            : 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.rock-img-slide {
+    margin-bottom: 10px;
+}
+
+.rock-img-slide .rock7 {
+    height: 100px;
+}
+
+footer .links .active a {
+    color: #50317d;
+}
+
+.back-to-home {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.back-to-home a {
+    padding: 1px !important;
+}
+
+.back-to-home i {
+    position: unset !important;
+}
+
+.header-ratingspedia {
+    margin-bottom: 100px;
+}
+
+.class-help-page .about {
+    background: #f0eff5 !important;
+}
+
+.class-help-page .testimonials.style-7::after {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .subject-wrapper .subject-slide {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .subject-wrapper .subject-slide {
+        width: calc(100% - 20px);
+    }
+}
